@@ -6,9 +6,8 @@ namespace Zoo.Classes
 {
     abstract class ColdBlooded : Animal
     {
-        public virtual void WalksOnAllFours()
-        {
-            Console.WriteLine(" walks on all fours");
-        }
+        public virtual bool WalksOnAllFours { get; set; } = true;
+
+        public virtual bool ShedsSkin { get; set; } = true;
     }
 }
