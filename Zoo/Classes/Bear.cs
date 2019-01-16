@@ -22,5 +22,10 @@ namespace Zoo.Classes
         {
             Console.WriteLine(" lumbers thorugh the forest");
         }
+
+        public override void Sleep()
+        {
+            Console.WriteLine(" sleeps for months on end.");
+        }
     }
 }
