@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Cat : WarmBlooded
+    abstract class Cat : WarmBlooded
     {
+
     }
 }
