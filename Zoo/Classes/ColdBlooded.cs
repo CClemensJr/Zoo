@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class ColdBlooded : Animal
+    abstract class ColdBlooded : Animal
     {
+        public virtual void WalksOnAllFours()
+        {
+            Console.WriteLine(" walks on all fours");
+        }
     }
 }
