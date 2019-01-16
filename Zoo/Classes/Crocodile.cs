@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Crocodile : ColdBlooded
+    public class Crocodile : ColdBlooded
     {
         public override string Hide { get => Hide; set => Hide = "scaly hide"; }
         public override string Coloring { get => Coloring; set => Coloring = "green"; }

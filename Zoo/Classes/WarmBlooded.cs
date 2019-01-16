@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    abstract class WarmBlooded : Animal
+    public abstract class WarmBlooded : Animal
     {
         public virtual string Sleep()
         {

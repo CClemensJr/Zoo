@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Tiger : Cat
+    public class Tiger : Cat
     {
         public override string Hide { get => Hide; set => Hide = "fur hide"; }
         public override string Coloring { get => Coloring; set => Coloring = "orange, white, and black"; }
