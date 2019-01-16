@@ -4,12 +4,14 @@ using Zoo.Classes;
 
 namespace ZooTests
 {
-    public class UnitTest1
+    public class LionTest
     {
         [Fact]
-        public void Test1()
+        public void ShouldHunt()
         {
+            Lion lionel = new Lion();
 
+            Assert.Equal("ROOAAAARRRR", lionel.Sounds());
         }
     }
 }

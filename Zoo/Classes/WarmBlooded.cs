@@ -6,9 +6,9 @@ namespace Zoo.Classes
 {
     abstract class WarmBlooded : Animal
     {
-        public virtual void Sleep()
+        public virtual string Sleep()
         {
-            Console.WriteLine("Sleeps for 8 hours");
+            return " sleeps for 8 hours";
         }
     }
 }

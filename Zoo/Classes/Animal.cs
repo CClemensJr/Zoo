@@ -13,7 +13,7 @@ namespace Zoo.Classes
         public abstract bool HasClaws { get; set; }
         public abstract bool HasWings { get; set; }
 
-        public abstract void Hunt();
-        public abstract void Move();
+        public abstract string Hunt();
+        public abstract string Move();
     }
 }

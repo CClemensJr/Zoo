@@ -13,14 +13,14 @@ namespace Zoo.Classes
         public override int NumberOfEyes { get => NumberOfEyes; set => NumberOfEyes = 2; }
         public override int NumberOfLegs { get => NumberOfLegs; set => NumberOfLegs = 4; }
 
-        public override void Hunt()
+        public override string Hunt()
         {
-            Console.WriteLine(" jumps on it's prey from above");
+            return " jumps on it's prey from above";
         }
 
-        public override void Move()
+        public override string Move()
         {
-            Console.WriteLine(" walks assuredly");
+            return " walks assuredly";
         }
     }
 }
