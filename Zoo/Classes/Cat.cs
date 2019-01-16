@@ -6,6 +6,9 @@ namespace Zoo.Classes
 {
     abstract class Cat : WarmBlooded
     {
-
+        public virtual void Sounds()
+        {
+            Console.WriteLine("Meow!");
+        }
     }
 }
