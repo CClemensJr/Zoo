@@ -16,12 +16,12 @@ namespace Zoo.Classes
 
         public override string Hunt()
         {
-            return " stalks it's prey";
+            return " waits for it's prey to stop moving";
         }
 
         public override string Move()
         {
-            return " runs through the tall grass";
+            return " hops over tables and stairs";
         }
     }
 }
