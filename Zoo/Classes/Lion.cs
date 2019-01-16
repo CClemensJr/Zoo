@@ -20,7 +20,7 @@ namespace Zoo.Classes
 
         public override void Move()
         {
-            Console.WriteLine(" slinks through the tall grass");
+            Console.WriteLine(" runs through the tall grass");
         }
     }
 }
