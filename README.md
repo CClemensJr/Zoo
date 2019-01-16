@@ -3,51 +3,46 @@
 
 ## summary
 ```
-	The purpose of this app is to use the animal kingdom as a metaphor for object oriented programming. It will include at least 5 animals that
-	inherit and override properties and behaviors from parent abstract and virtual classes.
+	The purpose of this app is to use the animal kingdom as a metaphor for object oriented programming. 
+	It will include at least 5 animals that inherit and override properties and behaviors from parent abstract and virtual classes.
 ```
 
 ## example
-```
-Digital Drawing will go here
-```
+![alt text](https://github.com/CClemensJr/Zoo/blob/master/assets/zoo.PNG)
 
-## in a nutshell
+## object oriented programming in a nutshell
 ### inheritance
 ```
-	Definition goes here.
+	Inheritance allows Base classes to send properties and behaviors down to Derived classes.
 ```
-```
-	Example images go here
-```
+![alt text](https://github.com/CClemensJr/Zoo/blob/master/assets/inheritance.PNG)
 
 ### abstraction
 ```
-	Definition goes here.
+	Abstract allows Base classes to act as a template for Derived classes by providing properties and method signatures that they
+	can define as they see fit. Once a Base class has been designated as abstract, it cannot be instantiated.
 ```
-```
-	Example images go here
-```
+![alt text](https://github.com/CClemensJr/Zoo/blob/master/assets/abstraction.PNG)
 
 ### polymorphism
 ```
-	Definition goes here.
+	Polymorphism is the act of changing redefining those methods provided by Base abstract or concrete  classes. 
+	Abstract methods have to be defined by concrete classes and are provided by abstract Base classes. Virtual methods, however, have 
+	to be definined in the base class that creates and can live inside of concrete or abstract classes. As a result, Derived classes can
+	choose whether or not to redefine the methods and properties.
+
 ```
-```
-	Example images go here
-```
+![alt text](https://github.com/CClemensJr/Zoo/blob/master/assets/polymorphism.PNG)
 
 ### encapsulation
 ```
-	Definition goes here.
+	Encapsulation is the concept of limiting how much access a class or method has to another method. Public classes and methods can
+	be accessed by anything. Private classes and methods can only being accessed by methods in the same class. Protected relaxes protection
+	just a little bit by allowing only Derived classes to access the classes and methods.
 ```
-```
-	Example images go here
-```
-## usage
-```
-	Directions go here.
-```
+![alt text](https://github.com/CClemensJr/Zoo/blob/master/assets/encapsulation.PNG)
+
+
 
 ## installation
 ```
