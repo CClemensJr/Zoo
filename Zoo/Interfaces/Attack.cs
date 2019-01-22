@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Interfaces
 {
-    interface Attack
+    interface IAttack
     {
         string Bite();
         string Kick();
