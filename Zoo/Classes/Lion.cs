@@ -26,7 +26,7 @@ namespace Zoo.Classes
 
         public string Eat()
         {
-            throw new NotImplementedException();
+            return " gnaws hungrily at a carcass.";
         }
 
         public override string Hunt()
@@ -36,7 +36,7 @@ namespace Zoo.Classes
 
         public string Kick()
         {
-            throw new NotImplementedException();
+            return " kicked out windly with it's hind legs";
         }
 
         public override string Move()
@@ -46,12 +46,12 @@ namespace Zoo.Classes
 
         public string Push()
         {
-            throw new NotImplementedException();
+            return " knocked the rat aside";
         }
 
         public string Scratch()
         {
-            throw new NotImplementedException();
+            return " raked it's claws through the metal doors.";
         }
 
         public override string Sounds()
