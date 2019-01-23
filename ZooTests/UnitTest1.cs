@@ -40,6 +40,14 @@ namespace ZooTests
 
             Assert.Equal(" walks assuredly", tigerel.Move());
         }
+
+        [Fact]
+        public void ShouldInheritSleep()
+        {
+            Tiger tigerel = new Tiger();
+
+            Assert.Equal(" sleeps for 8 hours", tigerel.Sleep());
+        }
     }
 
     public class BearTests
@@ -59,6 +67,25 @@ namespace ZooTests
 
             Assert.Equal(" lumbers thorugh the forest", teddionel.Move());
         }
+
+        [Fact]
+        public void ShouldImplementInterface()
+        {
+            Bear teddionel = new Bear();
+
+            Assert.Equal(" is breathing deeply", teddionel.Breath());
+        }
+
+        [Fact]
+        public void ShouldOverrideSleepMethod()
+        {
+            Bear teddionel = new Bear();
+            Lion lionel = new Lion();
+
+            Assert.True(lionel.Sleep() != teddionel.Sleep());
+        }
+
+
     }
 
     public class CrocodileTests
