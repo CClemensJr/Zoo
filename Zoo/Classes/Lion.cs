@@ -21,7 +21,7 @@ namespace Zoo.Classes
 
         public string Breath()
         {
-            return " is breathing heavily"
+            return " is breathing heavily";
         }
 
         public string Eat()
