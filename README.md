@@ -4,44 +4,52 @@
 ## summary
 ```
 	The purpose of this app is to use the animal kingdom as a metaphor for object oriented programming. 
-	It will include at least 5 animals that inherit and override properties and behaviors from parent abstract and virtual classes.
+	It will include at least 5 animals that inherit and override properties and behaviors from parent 
+	abstract and virtual classes.
 ```
 
 ## example
-![alt text](https://github.com/CClemensJr/Zoo/blob/master/assets/zoo.PNG)
+![alt text](https://github.com/CClemensJr/Zoo/blob/master/Assets/zoo.PNG)
 
 ## object oriented programming in a nutshell
 ### inheritance
 ```
 	Inheritance allows Base classes to send properties and behaviors down to Derived classes.
 ```
-![alt text](https://github.com/CClemensJr/Zoo/blob/master/assets/inheritance.PNG)
+![alt text](https://github.com/CClemensJr/Zoo/blob/master/Assets/inheritance.PNG)
 
 ### abstraction
 ```
-	Abstract allows Base classes to act as a template for Derived classes by providing properties and method signatures that they
+	Abstract allows Base classes to act as a template for Derived classes by providing properties and method 
+	signatures that they
 	can define as they see fit. Once a Base class has been designated as abstract, it cannot be instantiated.
 ```
-![alt text](https://github.com/CClemensJr/Zoo/blob/master/assets/abstraction.PNG)
+![alt text](https://github.com/CClemensJr/Zoo/blob/master/Assets/abstraction.PNG)
 
 ### polymorphism
 ```
 	Polymorphism is the act of changing redefining those methods provided by Base abstract or concrete  classes. 
-	Abstract methods have to be defined by concrete classes and are provided by abstract Base classes. Virtual methods, however, have 
-	to be definined in the base class that creates and can live inside of concrete or abstract classes. As a result, Derived classes can
-	choose whether or not to redefine the methods and properties.
+	Abstract methods have to be defined by concrete classes and are provided by abstract Base classes. Virtual 
+	methods, however, have to be defined in the base class that creates and can live inside of concrete or abstract 
+	classes. As a result, Derived classes can choose whether or not to redefine the methods and properties.
 
 ```
-![alt text](https://github.com/CClemensJr/Zoo/blob/master/assets/polymorphism.PNG)
+![alt text](https://github.com/CClemensJr/Zoo/blob/master/Assets/polymorphism.PNG)
 
 ### encapsulation
 ```
-	Encapsulation is the concept of limiting how much access a class or method has to another method. Public classes and methods can
-	be accessed by anything. Private classes and methods can only being accessed by methods in the same class. Protected relaxes protection
-	just a little bit by allowing only Derived classes to access the classes and methods.
+	Encapsulation is the concept of limiting how much access a class or method has to another method. Public 
+	classes and methods can be accessed by anything. Private classes and methods can only being accessed by 
+	methods in the same class. Protected relaxes protection just a little bit by allowing only Derived classes 
+	to access the classes and methods.
 ```
-![alt text](https://github.com/CClemensJr/Zoo/blob/master/assets/encapsulation.PNG)
+![alt text](https://github.com/CClemensJr/Zoo/blob/master/Assets/encapsulation.PNG)
 
+### interfaces
+```
+	Interfaces are a wonderful way allow methods and properties to be shared across multiple classes in an
+	abstract way, even if they do not inherit from another class.
+```
 
 
 ## installation

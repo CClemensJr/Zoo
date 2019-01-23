@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Interfaces
 {
-    interface Living
+    public interface ILiving
     {
         string Breath();
         string Eat();
